@@ -1,47 +1,22 @@
+const num1 = 31
+const num2 = 2
+const multiply = num1 * num2;
+console.log(multiply);
 
-let multiply = 62
+// better way is a function?
 
-let num1 = multiply / num2
+//const multiply = (num1, num3) => (num1 * num2)
+//console.log(multiply(31,2))
 
-let num2 = multiply / num1
+const random = Math.floor(Math.random()*100);
+console.log(random);
 
-// this seems like a sloppy way of doing this lol
+const num3 = 104
+const num4 = 100
+const mod = num3 % num4;
 
-let random = Math.floor(Math.random() * 10) + 0;
-// is this the best way to do this???? 
+console.log(mod);
 
-//mathrandom() returns a random number between 0 and .99. which 
-//is why we multiply by 10
-// we add math floor to round to nearest whole number
+const max = Math.max(1, 2, 4, 10, 6, 20)
 
-let mod = 4
-
-let num3 = multiply % mod
-
-let num4 = multiply % mod
-
-// tab9 helped me figure this out. need to figure out how to do this. here is some definitions
-
-//Division: It divides the left operand by the right operand.
-//Remainder: It returns the remainder obtained from the division.
-//Here's an example to illustrate how the remainder operator works:
-
-//javascript
-///opy code
-//let dividend = 17;
-//let divisor = 5;
-
-//let remainder = dividend % divisor;
-//console.log(remainder);  // Output: 2
-//In this example, the dividend is 17, and the divisor is 5. 
-//When we perform the division operation 17 / 5, the quotient i
-//s 3 with a remainder of 2. The remainder operator % returns the remainder, 
-//which is 2 in this case.
-
-let max = 20
-
-let min = 0
-
-Math.max()/Math.min()
-
-//Create a variable called max that finds the highest number in a set; the value returned should be 20.
+console.log(max);
